@@ -1,0 +1,117 @@
+#menu-container *{
+    text-decoration: none;
+}
+#menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    z-index: 10;
+    
+    transition: 0.1s;
+}
+#menu_arms_heading{
+    color:White;
+    text-align: center;
+    
+}
+#main_menu_container_{
+    background:linear-gradient(rgb(7, 7, 7),black);
+    width:100vw;
+    height:100vh;
+    transition: 0.2s;
+}
+#overflow_area_menu_{
+    height:100vh;
+    width:40vw;
+    
+}
+#main_menu_container_ article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:2%;
+    width:90%;
+    background-color: rgb(201, 201, 201);
+    margin:4% auto;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 100px;
+}
+#main_menu_container_ article #text_container{
+ 
+    width:70%;
+
+
+}
+#main_menu_container_ article #text_container h2{
+    color:rgb(69, 69, 69);
+    font-size: large;
+}
+#main_menu_container_ article #text_container  p{
+    color:rgb(99, 99, 99);
+    font-size: small;
+}
+#main_menu_container_ article #image_container{
+    width:10vw;
+}
+#main_menu_container_ article #image_container img{
+    width:10vw;
+    height:10vw;
+    border-radius: 500px;
+    border:2px solid white;
+    background-color: red;
+}
+#menu_holder ul {
+    text-align: center;
+    list-style-type: none;
+}
+#menu_holder ul li{
+    padding:3%;
+    font-size:1rem;
+    margin:5%;
+    
+}
+.selected{
+    border: 2px solid white;
+    border-radius:50px;
+    color:black;
+    font-weight: 900;
+}
+.selected li{
+    color:black;
+}
+
+#menu_footer_container{
+    text-align: center;
+    font-size:smaller;
+    color:rgb(156, 156, 156);
+    border-top:1px solid rgb(124, 124, 124);
+    padding-top:5%;
+    position: absolute;
+    bottom: 5%;
+    width:80%;
+    left:10%;
+}
+#menu_footer_container p{
+    color:rgb(147, 147, 147);
+    
+}
+.menu-visible{
+    display: block;
+    background:linear-gradient(to left,rgba(0, 0, 0, 0.842),black,black);
+}
+.menu-hidden{
+   display: none;
+   z-index:-1;
+ 
+}
+.overlay-visible {
+    display: block; /* Ensure the overlay is visible */
+  }
+  
+  .overlay-hidden {
+    display: none; /* or visibility: hidden; */
+  }

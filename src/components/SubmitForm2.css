@@ -1,0 +1,47 @@
+#submit_form_2_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height:80vh;
+}
+#submit_form_2_container fieldset{
+    width:90%;
+    margin:auto;
+    border-radius: 10px;
+    border:0px solid rgb(199, 199, 199);
+    padding:2%;
+    background-color: transparent;
+}
+#submit_form_2_container fieldset legend{
+    text-align: center;
+
+}
+#submit_form_2_container fieldset legend h1{
+    color:white;
+   
+    text-shadow: 0px 0px 10px white;
+}
+#submit_form_2_container fieldset  #submit_form_2_subheading{
+    text-align:center;
+    margin:5% auto;
+    width:85%;
+
+    font-size: medium;
+}
+#submit_form_2_container main{
+    
+}
+#buttons_for2_holder{
+    margin:5% auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#submit_form_2_container footer{
+    color:rgb(150, 150, 150);
+    text-align: center;
+    font-size: smaller;
+    margin:15% auto;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,30 @@
+#Testimonials_container{
+    background: linear-gradient(rgb(0, 0, 0),rgba(15, 15, 15, 0.808),black) , url("../assets/p3.jpg");
+    color:white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+#Testimonials_container #heading_container h1{
+    text-align: center;
+    font-size: 10vw;
+    margin-top:10%;
+}
+#Testimonials_container #heading_container p{
+    width:80%;
+    text-align: center;
+    font-size: small;
+    margin:10% auto;
+    color:rgb(186, 186, 186);
+}
+#mmmm_container{
+    overflow-x: scroll;
+    
+}
+#Testimonials_container #main_cards_holder{
+    display: flex;
+    width:700vw;
+    justify-content: space-evenly;
+    align-items: center;
+}

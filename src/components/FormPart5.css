@@ -1,0 +1,25 @@
+#formpart5_container{
+    width:90%;
+    margin:auto;
+    border:2px solid rgb(206, 206, 206);
+    border-radius: 40px;
+}
+#formpart5_container artilce{
+    text-align: center;
+    padding:4%;
+}
+#heading_of_payment{
+    color:rgb(89, 89, 89);
+    margin:5%;
+    text-align: center;
+}
+#lolp{
+    color:rgb(100,100,100);
+    text-align:center;
+    width:70%;
+    margin:auto;
+}
+#main_items_holder{
+    width:70%;
+    margin:auto;
+}

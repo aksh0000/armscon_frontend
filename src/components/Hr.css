@@ -1,0 +1,9 @@
+#hr_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#hr_container hr{
+    width:40vw;
+}

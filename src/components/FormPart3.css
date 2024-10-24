@@ -1,0 +1,31 @@
+#formpart3_container{
+    width:90%;
+   
+    margin:auto;
+    border:0px solid rgb(200,200,200);
+    border-radius: 40px;
+}
+#formpart3_container article{
+    text-align: center;
+
+    padding:4vw;
+}
+#formpart3_container article h2{
+    color:rgb(100,100,100);
+    
+}
+#formpart3_container article p{
+    color:rgb(100,100,100);
+    font-size: small;
+
+}
+#formpart3_container #options_holder main{
+    width:80%;
+    margin: auto;
+}
+#formpart3_container #btn_holder{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin:5% 0%;
+}

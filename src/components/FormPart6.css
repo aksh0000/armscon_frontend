@@ -1,0 +1,31 @@
+#form_part_6_container{
+    width:100%;
+    margin:auto;
+    height: 100vh;
+   background-color: white;
+}
+#form_part_6_container main{
+    width:80%;
+    margin:auto;
+    border:2px solid rgb(200, 200, 200);
+    border-radius: 2px;
+    padding:2%;
+}
+#small_para{
+    font-size: small;
+}
+#form_part_6_container article h2{
+    text-align: center;
+    margin:5%;
+}
+#form_part_6_container article p{
+    color:black;
+}
+#form_part_6_container article ol{
+    list-style-type: none;
+    border:2px solid rgb(200,200,200);
+    border-radius: 5px;
+}
+#form_part_6_container article ol li{
+    margin:2%;
+}

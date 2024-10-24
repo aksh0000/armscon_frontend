@@ -1,0 +1,27 @@
+#sponsors_container{
+    background: linear-gradient(rgba(10, 10, 10, 0.135),black);
+}
+#sponsors_container header{
+   text-align: center;
+}
+#sponsors_container header h1{
+    margin:5% auto;
+    font-size: 10vwz;
+}
+#sponsors_container header p{
+    width:80%;
+    font-size: small;
+    background: black;
+    margin:15% auto;
+    color:rgb(227, 227, 227);
+    border:1px solid rgb(227, 227, 227);
+    padding:2%;
+    border-radius: 5px;
+}
+#sponsors_container main{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}

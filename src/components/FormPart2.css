@@ -1,0 +1,28 @@
+#formpart2_container{
+    border:0px solid rgb(200,200,200);
+    margin:5%;
+    border-radius: 40px;
+    overflow: hidden;
+}
+#formpart2_container article{
+
+    text-align: center;
+
+    color:rgb(100,100,100);
+    padding:5%;
+
+}
+#formpart2_container article p{
+    font-size: smaller;
+    text-align: center;
+    color:rgb(100,100,100);
+}
+#formpart2_container  section{
+    width:80%;
+    margin:20px auto;
+}
+#formpart2_container #btn_holder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

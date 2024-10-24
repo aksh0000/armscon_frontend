@@ -1,0 +1,85 @@
+#Testimonial_card{
+    margin:0% 15px;
+    
+    border-radius: 5px;
+    padding:0%;
+}
+#Testimonial_card main{
+    
+    border-radius: 5px;
+    border:1px solid white;
+    padding:2%;
+    
+
+}
+#Testimonial_card main  header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3% 1%;
+}
+#Testimonial_card main img{
+    width:15vw;
+    height:15vw;
+    border-radius: 500px;
+    border:2px solid rgb(179, 16, 190)
+}
+#Testimonial_card main #details_holder{
+    width:70%;
+}
+#Testimonial_card main #details_holder h2{
+    font-weight: 500;
+    font-size: large;
+}
+#Testimonial_card main #details_holder p{
+    margin-top:5px;
+    font-size: small;
+    color:rgb(220, 220, 220);
+}
+#Testimonial_card main hr{
+    width:90%;
+    margin:auto;
+    margin:10px auto;
+
+}
+#Testimonial_card main article{
+    width:90%;
+    margin:auto;
+    word-wrap: break-word;
+}
+#Testimonial_card main footer{
+    padding:5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inside_dialog_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2%;
+}
+#inside_dialog_box #dp_holder{
+    margin-right:2%;
+    margin-left:0%;
+}
+#inside_dialog_box #dp_holder img{
+    width:10vw;
+    height:10vw;
+    border-radius: 500px;
+    border:2px solid white;
+}
+#inside_dialog_box #details_holder h2{
+    font-size: larger;
+    
+}
+#inside_dialog_box #details_holder p{
+    color:rgb(169, 169, 169);
+    padding:0% 0%;
+    font-size: small;
+}
+#testi_content{
+    color:rgb(238, 238, 238);
+    
+   
+}
