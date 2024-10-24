@@ -1,0 +1,42 @@
+#lalalala{
+    height:100vh;
+    background: linear-gradient(rgb(240, 240, 240),rgba(255, 255, 255, 0.745),rgb(255, 255, 255)),url('../assets/ship_for_sail.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#submit_form_container{
+    width:80%;
+    
+    margin:Auto;
+    text-align: center;
+    border: 2px solid rgb(200,200,200);
+    border-radius: 10px;
+    padding:5%;
+    transform: translateY(10%);
+}
+#submit_form_container article h2{
+    color:rgb(0, 0, 0);
+}
+#submit_form_container article p{
+    color:rgb(0, 0, 0);
+    padding:5%;
+    font-size: medium;
+}
+#image_holder2 label{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+}
+#image_holder2 label img{
+    width:70vw;
+    height:70vw;
+}
+#lalalala h1{
+    color:white;
+    text-align: center;
+    padding:2%;
+}
+#lalalala footer{
+    color:white;
+}

@@ -1,0 +1,16 @@
+#about_container{
+    background:linear-gradient(black,black);
+    color:white;
+    text-align: center;
+}
+#text_section h1{
+    font-size:8vw;
+    margin-bottom: 10%;
+}
+#text_section p{
+    text-align: left;
+    width:80%;
+    margin:auto;
+    color:rgb(230,230,230);
+    font-size: small;
+}

@@ -1,0 +1,25 @@
+#frf{
+    background:linear-gradient(rgb(0, 0, 0),rgb(9, 9, 9),rgb(23, 23, 23),rgb(0, 0, 0));
+    background:rgb(0, 0, 0);
+    height:100vh;
+    overflow-y: scroll;
+    
+    background-size: cover;
+    background-position: fixed;
+}
+#workshops_container h1,p{
+    color:white;
+    
+}
+#workshops_container #heading_{
+    text-align: center;
+    padding: 3%;
+    background-color: black;
+}
+#subheading_{
+    padding:5%;
+    text-align: center;
+    background-color: black;
+    font-size: small;
+    color:rgb(209, 209, 209);
+}

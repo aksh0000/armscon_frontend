@@ -1,0 +1,31 @@
+#formpart1_container{
+    width: 90%;
+    margin: auto;
+    border:0px solid rgb(181, 181, 181);
+    border-radius: 40px;
+    padding:5% 0%;
+    
+}
+#formpart1_container article{
+    text-align: center;
+}
+#formpart1_container article h2{
+    color:rgb(100,100,100);
+}
+#formpart1_container article p{
+    margin:15px auto;
+    color:rgb(100,100,100);
+    font-size:smaller;
+}
+.text_holder{
+    width:90%;
+    margin:15px auto;
+    color:black;
+}
+#select_holder{
+    display: flex;
+    margin:20px auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
